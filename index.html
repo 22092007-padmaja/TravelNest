@@ -1,134 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>TravelNest | Explore Your Dream Vacation</title>
+    <title>TravelNest | Explore Your Dream Destinations</title>
 
-<meta name="description" content="TravelNest offers affordable travel packages across India.">
-<meta name="keywords" content="Travel, Tourism, Goa, Kerala, Kashmir, Packages">
+    <meta name="description"
+        content="TravelNest helps you discover beautiful destinations across India with affordable travel packages, luxury stays, and unforgettable experiences.">
 
-<link rel="stylesheet" href="style.css">
+    <meta name="keywords"
+        content="Travel, Tourism, Goa, Kerala, Kashmir, India Travel, Vacation, Holiday Packages">
+
+    <meta name="author" content="Padmaja">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/6c5d8d9f7d.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
 
-<!-- Navigation -->
+<!-- ================= NAVBAR ================= -->
 
 <header>
 
-<nav>
+<nav class="navbar">
 
-<div class="logo">🌍 TravelNest</div>
+<div class="logo">
+🌍 TravelNest
+</div>
 
-<ul>
+<ul class="nav-links">
 
-<li><a href="index.html">Home</a></li>
-
-<li><a href="about.html">About</a></li>
-
-<li><a href="packages.html">Packages</a></li>
-
-<li><a href="gallery.html">Gallery</a></li>
-
-<li><a href="contact.html">Contact</a></li>
+<li><a href="#home">Home</a></li>
+<li><a href="#destinations">Destinations</a></li>
+<li><a href="#features">Services</a></li>
+<li><a href="#reviews">Reviews</a></li>
+<li><a href="#contact">Contact</a></li>
 
 </ul>
+
+<div class="menu-btn">
+
+<i class="fas fa-bars"></i>
+
+</div>
 
 </nav>
 
 </header>
 
-<!-- Hero Section -->
 
-<section class="hero">
+<!-- ================= HERO ================= -->
 
-<h1>Explore Your Dream Vacation</h1>
+<section class="hero" id="home">
 
-<p>Discover the most beautiful destinations with affordable travel packages.</p>
+<div class="hero-content">
 
-<a href="packages.html" class="btn">Explore Packages</a>
+<h1>Discover The Beauty Of India</h1>
+
+<p>
+
+Plan unforgettable journeys with affordable travel packages,
+luxury hotels and exciting adventures.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#destinations" class="btn">
+Explore Now
+</a>
+
+<a href="#contact" class="btn-outline">
+Book Trip
+</a>
+
+</div>
+
+</div>
 
 </section>
 
-<!-- Popular Destinations -->
 
-<section class="destinations">
 
-<h2>Popular Destinations</h2>
+<!-- ================= STATISTICS ================= -->
+
+<section class="stats">
+
+<div class="stat-box">
+
+<h2>250+</h2>
+
+<p>Destinations</p>
+
+</div>
+
+<div class="stat-box">
+
+<h2>15K+</h2>
+
+<p>Happy Travelers</p>
+
+</div>
+
+<div class="stat-box">
+
+<h2>500+</h2>
+
+<p>Luxury Hotels</p>
+
+</div>
+
+<div class="stat-box">
+
+<h2>24×7</h2>
+
+<p>Customer Support</p>
+
+</div>
+
+</section>
+
+
+
+<!-- ================= DESTINATIONS ================= -->
+
+<section class="destinations" id="destinations">
+
+<h2 class="section-title">
+
+Popular Destinations
+
+</h2>
 
 <div class="cards">
 
 <div class="card">
 
-<img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500" alt="Goa Beach">
+<img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800"
+alt="Goa Beach">
+
+<div class="card-content">
 
 <h3>Goa</h3>
 
-<p>Enjoy beaches, nightlife and adventure.</p>
+<p>
 
-<a href="contact.html" class="btn-small">Book Now</a>
+Relax on golden beaches,
+enjoy water sports and vibrant nightlife.
+
+</p>
+
+<a href="#contact" class="btn-small">
+
+Book Now
+
+</a>
 
 </div>
 
+</div>
+
+
+
 <div class="card">
 
-<img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=500" alt="Kerala">
+<img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800"
+alt="Kerala Backwaters">
+
+<div class="card-content">
 
 <h3>Kerala</h3>
 
-<p>Experience beautiful backwaters and nature.</p>
+<p>
 
-<a href="contact.html" class="btn-small">Book Now</a>
+Experience peaceful backwaters,
+lush greenery and houseboat cruises.
+
+</p>
+
+<a href="#contact" class="btn-small">
+
+Book Now
+
+</a>
 
 </div>
 
+</div>
+
+
+
 <div class="card">
 
-<img src="https://images.unsplash.com/photo-1548013146-72479768bada?w=500" alt="Kashmir">
+<img src="https://images.unsplash.com/photo-1548013146-72479768bada?w=800"
+alt="Kashmir Mountains">
+
+<div class="card-content">
 
 <h3>Kashmir</h3>
 
-<p>Visit India's paradise with snowy mountains.</p>
+<p>
 
-<a href="contact.html" class="btn-small">Book Now</a>
+Explore snow-covered mountains,
+lakes and breathtaking valleys.
 
-</div>
+</p>
 
-</div>
+<a href="#contact" class="btn-small">
 
-</section>
+Book Now
 
-<!-- Why Choose Us -->
-
-<section class="features">
-
-<h2>Why Choose TravelNest?</h2>
-
-<div class="cards">
-
-<div class="card">
-
-<h3>✈ Safe Travel</h3>
-
-<p>Comfortable and secure journeys.</p>
+</a>
 
 </div>
-
-<div class="card">
-
-<h3>💰 Affordable</h3>
-
-<p>Budget-friendly tour packages.</p>
-
-</div>
-
-<div class="card">
-
-<h3>📞 24×7 Support</h3>
-
-<p>We are always ready to help you.</p>
 
 </div>
 
@@ -136,69 +232,318 @@
 
 </section>
 
-<!-- Reviews -->
 
-<section class="reviews">
 
-<h2>Happy Travelers</h2>
+<!-- ================= WHY CHOOSE US ================= -->
 
-<div class="cards">
+<section class="features" id="features">
 
-<div class="card">
+<h2 class="section-title">
 
-<h3>⭐⭐⭐⭐⭐</h3>
+Why Choose TravelNest?
 
-<p>"Amazing experience! Highly recommended."</p>
+</h2>
 
-<b>- Priya</b>
+<div class="feature-container">
+
+<div class="feature-box">
+
+<i class="fas fa-plane"></i>
+
+<h3>Safe Travel</h3>
+
+<p>
+
+Enjoy secure and comfortable journeys with experienced guides.
+
+</p>
 
 </div>
 
-<div class="card">
+<div class="feature-box">
 
-<h3>⭐⭐⭐⭐⭐</h3>
+<i class="fas fa-wallet"></i>
 
-<p>"Beautiful hotels and great service."</p>
+<h3>Affordable Packages</h3>
 
-<b>- Rahul</b>
+<p>
+
+Budget-friendly trips without compromising quality.
+
+</p>
 
 </div>
 
-<div class="card">
+<div class="feature-box">
 
-<h3>⭐⭐⭐⭐⭐</h3>
+<i class="fas fa-headset"></i>
 
-<p>"Our family trip was unforgettable."</p>
+<h3>24×7 Support</h3>
 
-<b>- Sneha</b>
+<p>
+
+Our support team is always ready to help you.
+
+</p>
+
+</div>
+
+<div class="feature-box">
+
+<i class="fas fa-hotel"></i>
+
+<h3>Luxury Hotels</h3>
+
+<p>
+
+Stay in carefully selected premium hotels.
+
+</p>
 
 </div>
 
 </div>
 
 </section>
+<!-- ================= REVIEWS ================= -->
 
-<!-- Call to Action -->
+<section class="reviews" id="reviews">
 
-<section class="cta">
+<h2 class="section-title">What Our Travelers Say</h2>
 
-<h2>Ready for Your Next Adventure?</h2>
+<div class="review-container">
 
-<p>Book your dream holiday today.</p>
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Priya">
+<h3>Priya Sharma</h3>
+<p>
+★★★★★
+</p>
+<p>
+"TravelNest made our Goa vacation absolutely perfect.
+The hotels and transport were excellent."
+</p>
+</div>
 
-<a href="contact.html" class="btn">Book Your Trip</a>
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Rahul">
+<h3>Rahul Verma</h3>
+<p>
+★★★★★
+</p>
+<p>
+"Affordable prices, professional service and wonderful
+destinations. Highly recommended!"
+</p>
+</div>
+
+<div class="review-card">
+<img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Sneha">
+<h3>Sneha Reddy</h3>
+<p>
+★★★★★
+</p>
+<p>
+"Our Kashmir trip was unforgettable.
+Everything was well organized."
+</p>
+</div>
+
+</div>
 
 </section>
 
-<!-- Footer -->
+
+
+<!-- ================= GALLERY ================= -->
+
+<section class="gallery">
+
+<h2 class="section-title">Travel Gallery</h2>
+
+<div class="gallery-grid">
+
+<img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600" alt="Beach">
+
+<img src="https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?w=600" alt="Mountain">
+
+<img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=600" alt="Travel">
+
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600" alt="Nature">
+
+<img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600" alt="Temple">
+
+<img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?w=600" alt="Vacation">
+
+</div>
+
+</section>
+
+
+
+<!-- ================= FAQ ================= -->
+
+<section class="faq">
+
+<h2 class="section-title">Frequently Asked Questions</h2>
+
+<div class="faq-item">
+
+<h3>How can I book a trip?</h3>
+
+<p>
+Simply click the Book Now button or fill out the contact form.
+</p>
+
+</div>
+
+<div class="faq-item">
+
+<h3>Do you provide hotel booking?</h3>
+
+<p>
+Yes. We provide hotel booking, transportation and sightseeing packages.
+</p>
+
+</div>
+
+<div class="faq-item">
+
+<h3>Can I customize my travel package?</h3>
+
+<p>
+Absolutely! We create customized packages based on your budget and preferences.
+</p>
+
+</div>
+
+</section>
+
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact" id="contact">
+
+<h2 class="section-title">Contact Us</h2>
+
+<form onsubmit="return validateForm()">
+
+<input
+type="text"
+id="name"
+placeholder="Your Name"
+required>
+
+<input
+type="email"
+id="email"
+placeholder="Email Address"
+required>
+
+<input
+type="text"
+id="phone"
+placeholder="Phone Number"
+required>
+
+<textarea
+rows="5"
+placeholder="Your Message"></textarea>
+
+<button type="submit">
+
+Book Now
+
+</button>
+
+</form>
+
+</section>
+
+
+
+<!-- ================= NEWSLETTER ================= -->
+
+<section class="newsletter">
+
+<h2>Subscribe To Our Newsletter</h2>
+
+<p>
+
+Get travel offers and latest updates directly in your inbox.
+
+</p>
+
+<form>
+
+<input
+type="email"
+placeholder="Enter your Email">
+
+<button>
+
+Subscribe
+
+</button>
+
+</form>
+
+</section>
+
+
+
+<!-- ================= FOOTER ================= -->
 
 <footer>
 
-<p>© 2026 TravelNest | Designed by Padmaja</p>
+<div class="footer-content">
+
+<h2>🌍 TravelNest</h2>
+
+<p>
+
+Explore India with confidence.
+Making your dream vacation unforgettable.
+
+</p>
+
+<div class="social-icons">
+
+<a href="#"><i class="fab fa-facebook"></i></a>
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="#"><i class="fab fa-twitter"></i></a>
+
+<a href="#"><i class="fab fa-linkedin"></i></a>
+
+</div>
+
+<p>
+
+© 2026 TravelNest | Designed by Padmaja
+
+</p>
+
+</div>
 
 </footer>
+
+
+
+<!-- Scroll To Top -->
+
+<button id="topBtn">
+
+↑
+
+</button>
+
+
 
 <script src="script.js"></script>
 
 </body>
+
 </html>
